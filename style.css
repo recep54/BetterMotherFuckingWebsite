@@ -1,0 +1,15 @@
+/* Le style a été créer spécialement par recep le meuilleur designer */
+body
+{
+	line-height: 1.6;
+	font-size: 18px;
+	width: 650px;
+	margin: auto;
+	color: #444;
+	padding: 10px;
+}
+
+h1, h2, h3
+{
+	line-height: 1.2;
+}
