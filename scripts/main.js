@@ -1,4 +1,4 @@
-svar myVar; //Ma variable
+var myVar; //Ma variable
 
 setTimeout(confirmation, 10000); // temps
 function confirmation(){
