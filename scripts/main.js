@@ -1,17 +1,9 @@
-setTimeout(function(){
-confirm('Hey, le site xxxvidsxxx est trop bien. Viens dessus !');
-}, 2000);
+svar myVar; //Ma variable
 
-var myButton = document.querySelector('button');
-
-
-myButton.onclick = function (){
-		document.querySelector('body').style.background = "magenta",
-		document.querySelector('button').innerHTML = 'Mode normal';
-
-myButton.onclick = function () {
-		document.querySelector('body').style.background = "#FAFAFA";
-		document.querySelector('button').innerHTML = 'Mode psychédélique';
-
-} 
-} 
+setTimeout(confirmation, 10000); // temps
+function confirmation(){
+  myVar = confirm ("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please.");
+  if (myVar) {
+  window.location="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+  }
+}
